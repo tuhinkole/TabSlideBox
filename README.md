@@ -11,22 +11,19 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+TODO: You can create tabs and sub_tabs using the TabBar widget and you can use this widget for custom your tab-slide-box with your requirement.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+TODO: Create beautiful TabSlideBox.
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+TODO: You can use TabBar Function.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+TODO: You can create tabs sub tabs. 
 
 ```dart
 const like = 'sample';
@@ -34,6 +31,4 @@ const like = 'sample';
 
 ## Additional information
 
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
+TODO: You can create tabs and sub_tabs using the TabBar widget and you can use this widget for custom your tab-slide-box with your requirement.
