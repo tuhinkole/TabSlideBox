@@ -12,3 +12,8 @@ Added Default TabBar
 
 * TODO: Version 0.0.3.
 Added Custom TabBar
+
+## 0.0.4
+
+* TODO: Version 0.0.4.
+Add How to use this Package example

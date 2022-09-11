@@ -7,6 +7,7 @@ class TabbarItemWidget extends StatefulWidget {
   late final Color itemNormalColor;
   late final Color itemSelectedColor;
   late final Color itemBackgroundColor;
+  
   TabbarItemWidget({
     required this.isSelected,
     required this.icon,

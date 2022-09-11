@@ -50,9 +50,9 @@ class _TabSlideBoxState extends State<TabSlideBox> with SingleTickerProviderStat
     _tabBarBackgroundColor = widget.tabBarBackgroundColor ?? Colors.black87;
     assert(
         _pages.length > 0 &&
-            _pages.length < 6 &&
+            _pages.length < 20 &&
             _tabIcons.length == _pages.length,
-        'Please set valid number of pages for tabs. You assign maximum. of 5 pages and minimum of 1 page to Rounded Tabbar.');
+        'Please set valid number of pages for tabs. You assign maximum. of 20 pages and minimum of 1 page to Rounded Tabbar.');
     _setupTabbarController();
   }
 

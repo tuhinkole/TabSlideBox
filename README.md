@@ -25,9 +25,42 @@ TODO: You can use TabBar Function.
 
 TODO: You can create tabs sub tabs. 
 
+##  How to use it.
+
+the usage is very simple, just use the following
+
 ```dart
-const like = 'sample';
+ RoundedTabbarWidget(
+      tabIcons: [
+        Icons.home,
+        Icons.favorite,
+        Icons.chat,
+        Icons.person,
+      ],
+      pages: [
+        HomePageWidget(),
+        FavoritePageWidget(),
+        MessagesPageWidget(),
+        ProfilePageWidget(),
+      ],
+      selectedIndex: 0,
+      onTabItemIndexChanged: (int index) {
+        print('Index: $index');
+      },
+    ),
 ```
+
+## parameters
+
+| parameter                  | description                                                                           | default                                                                                                                                                                               |
+| -------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| onTabItemIndexChanged                       | Completion Handler which returns index of current tab page                                                                  |     (int index) {}                                                                                                                                                                              |
+| tabIcons          | List of Tab Icons                                            | Pass List of IconData parameter                                                                                                                                                    |
+| pages          | List of Tab Pages                                            | Pass List of Tab widgets parameter                                                                                                                                                    |
+| selectedIndex          | Index of tab page to be shown selected initially                                            | This is a optional parameter                                                                                                                                                    |
+| itemNormalColor          | Color of Tabbar item for normal state                                            | This is a optional parameter                                                                                                                                                    |
+| itemSelectedColor          | Color of Tabbar item for selected state                                            | This is a optional parameter                                                                                                                                                    |
+| tabBarBackgroundColor          | Background color of Tabbar                                            | This is a optional parameter                                                                                                                                                    |
 
 ## Additional information
 
